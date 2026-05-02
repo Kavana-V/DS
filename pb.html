@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sri Balaji Service Station (IOCL)</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 55px;
+}
+
+.logo-text h1 {
+    font-size: 16px;
+    color: #0d3b66;
+}
+
+.logo-text small {
+    color: #666;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1601814933824-fd0b574dd592') center/cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e65c00;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0d3b66;
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* FOOTER */
+footer {
+    background: #0d3b66;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="iocl-logo.png" alt="IndianOil Logo">
+        <div class="logo-text">
+            <h1>Sri Balaji Service Station</h1>
+            <small>(IOCL Authorized Dealer)</small>
+        </div>
+    </div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Reliable Fuel. Trusted Service.</h2>
+    <p>Proudly serving Chandralayout, Bangalore</p>
+    <a href="#contact" class="btn">Contact Us</a>
+</section>
+
+<section class="section" id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+        Sri Balaji Service Station (IOCL) is a trusted fuel station located in Chandralayout, Bangalore, Karnataka.
+        We are committed to providing high-quality petrol and diesel with accurate dispensing and fast service.
+        Customer satisfaction and transparency are our top priorities.
+    </p>
+</section>
+
+<section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Petrol</h3>
+            <p>High-quality petrol for smooth engine performance.</p>
+        </div>
+        <div class="card">
+            <h3>Diesel</h3>
+            <p>Efficient diesel fuel for all vehicle types.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+        <p><strong>📍 Location:</strong> Chandralayout, Bangalore, Karnataka</p>
+        <p><strong>📞 Phone:</strong> +91 9957632094</p>
+        <p><strong>⏰ Hours: 6AM - 11:00 PM</strong> </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sri Balaji Service Station (IOCL). All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
